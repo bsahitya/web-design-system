@@ -1,4 +1,4 @@
-import CovalentCodeSnippet from '@covalent/components/code-snippet';
+import { CovalentCodeSnippet } from '@covalent/components';
 import { createComponent } from '@lit/react';
 import React from 'react';
 import IconButton from '../IconButton';
@@ -46,7 +46,9 @@ const CodeSnippet: React.FC<CodeSnippetProps> = (props) => {
   return (
     <div className={styles.codeSnippetWrapper}>
       <div
-        className={`${styles.codeSnippet} ${hideHeader ? styles.headerHidden : ''}`}
+        className={`${styles.codeSnippet} ${
+          hideHeader ? styles.headerHidden : ''
+        }`}
       >
         <CodeSnippetComponent {...props}>{content}</CodeSnippetComponent>
         <div className={`${styles.copyButton}`}>

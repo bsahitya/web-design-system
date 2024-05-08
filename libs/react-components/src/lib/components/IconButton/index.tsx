@@ -1,4 +1,4 @@
-import CovalentIconButton from '@covalent/components/icon-button';
+import { CovalentIconButton } from '@covalent/components';
 import { createComponent } from '@lit/react';
 import React from 'react';
 
@@ -31,7 +31,7 @@ interface IconButtonProps {
 
 const IconButtonComponent = createComponent({
   tagName: 'cv-icon-button',
-  elementClass: CovalentIconButton as any,
+  elementClass: CovalentIconButton as never,
   react: React,
 });
 

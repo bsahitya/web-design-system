@@ -1,11 +1,9 @@
 {
   "name": "@bsahitya/react-components",
   "version": "0.0.0-SAHITYA-WEB",
+  "type": "module",
   "main": "dist/libs/react-components/index.js",
   "types": "dist/libs/react-components/index.d.ts",
-  "files": [
-    "dist/libs/react-components"
-  ],
   "sideEffects": [
     "**/*.css"
   ]

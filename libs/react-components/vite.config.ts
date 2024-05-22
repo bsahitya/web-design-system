@@ -48,7 +48,7 @@ export default defineConfig({
           .sync(path.resolve(__dirname, 'src/lib/**/*.{ts,tsx}'), {
             ignore: [
               path.resolve(__dirname, 'src/lib/**/*.stories.tsx'),
-              path.resolve(__dirname, 'lib/**/*.d.ts'),
+              path.resolve(__dirname, 'src/lib/**/*.d.ts'),
             ],
           })
           .map((file) => [

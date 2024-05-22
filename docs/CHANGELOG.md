@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/bsahitya/web-design-system/compare/v1.0.3...v1.1.0) (2024-05-22)
+
+
+### Features
+
+* **readme:** add test text ([e4d2bc8](https://github.com/bsahitya/web-design-system/commit/e4d2bc89a343cc1f9d8e7a62b05867f974b3e29b))
+
 ## [1.0.3](https://github.com/bsahitya/web-design-system/compare/v1.0.2...v1.0.3) (2024-05-22)
 
 

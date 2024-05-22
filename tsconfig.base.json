@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@bsahitya/react-components": ["libs/react-components/src/index.ts"]
+      "@bsahitya/react-components": [
+        "libs/react-components/src/lib/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -1,12 +1,12 @@
 {
   "name": "@bsahitya/react-components",
-  "version": "0.1.2",
-  "main": "./index.js",
-  "types": "./index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./index.mjs",
-      "require": "./index.js"
-    }
-  }
+  "version": "0.0.0-SAHITYA-WEB",
+  "main": "dist/libs/react-components/index.js",
+  "types": "dist/libs/react-components/index.d.ts",
+  "files": [
+    "dist/libs/react-components"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ]
 }

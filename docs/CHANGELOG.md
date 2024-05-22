@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/bsahitya/web-design-system/compare/v1.0.2...v1.0.3) (2024-05-22)
+
+
+### Bug Fixes
+
+* **package:** edit package json ([d08b252](https://github.com/bsahitya/web-design-system/commit/d08b25215cb280a72eb0a6d9c11249e12bd9a430))
+
 ## [1.0.2](https://github.com/bsahitya/web-design-system/compare/v1.0.1...v1.0.2) (2024-05-22)
 
 

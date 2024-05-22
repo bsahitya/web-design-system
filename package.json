@@ -1,6 +1,6 @@
 {
   "name": "web-design-system",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "scripts": {
     "semantic-release": "semantic-release --branches main",

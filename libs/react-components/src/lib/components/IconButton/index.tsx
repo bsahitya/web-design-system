@@ -1,3 +1,4 @@
+import React from 'react';
 import { CovalentIconButton } from '@covalent/components/icon-button';
 import { createComponent } from '@lit/react';
 

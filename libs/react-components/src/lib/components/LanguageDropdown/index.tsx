@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from './styles.module.scss';
 
 export type MenuPosition = 'top' | 'bottom';
@@ -51,7 +51,9 @@ const LanguageDropdown: React.FC<LanguageDropdownProps> = ({
 
   return (
     <div
-      className={`${styles.languageSelectorWrapper} ${activeLangButton ? styles.active : ''}`}
+      className={`${styles.languageSelectorWrapper} ${
+        activeLangButton ? styles.active : ''
+      }`}
     >
       <button
         aria-label="Select language"
@@ -64,12 +66,16 @@ const LanguageDropdown: React.FC<LanguageDropdownProps> = ({
         {activeLang?.label}
       </button>
       <ul
-        className={`${styles.languageSelector} ${menuPosition === 'top' ? styles.top : ''}`}
+        className={`${styles.languageSelector} ${
+          menuPosition === 'top' ? styles.top : ''
+        }`}
         id="languages"
       >
         {languages.map((lang, index) => (
           <li
-            className={`${styles.languageOption} ${lang.value === activeLang?.value ? styles.active : ''}`}
+            className={`${styles.languageOption} ${
+              lang.value === activeLang?.value ? styles.active : ''
+            }`}
             onClick={() => handleLangOptionClick(lang)}
             key={index}
           >

@@ -67,11 +67,6 @@ export default defineConfig({
       output: {
         assetFileNames: 'assets/[name][extname]',
         entryFileNames: '[name].js',
-        globals: {
-          react: 'react',
-          'react-dom': 'ReactDOM',
-          'react/jsx-runtime': 'react/jsx-runtime',
-        },
       },
     },
   },

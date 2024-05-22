@@ -1,6 +1,5 @@
 import { CovalentCodeSnippet } from '@covalent/components/code-snippet';
 import { createComponent } from '@lit/react';
-import React from 'react';
 import IconButton from '../IconButton';
 import styles from './styles.module.scss';
 

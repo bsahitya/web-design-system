@@ -1,6 +1,5 @@
 import { CovalentIconButton } from '@covalent/components/icon-button';
 import { createComponent } from '@lit/react';
-import React from 'react';
 
 interface IconButtonProps {
   /**

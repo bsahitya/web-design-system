@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/bsahitya/web-design-system/compare/v1.1.4...v1.1.5) (2024-05-22)
+
+
+### Bug Fixes
+
+* **build:** remove jsx runtime ([cc44605](https://github.com/bsahitya/web-design-system/commit/cc44605f584f9346c7469545ee5eb88c2d21c4a0))
+
 ## [1.1.4](https://github.com/bsahitya/web-design-system/compare/v1.1.3...v1.1.4) (2024-05-22)
 
 

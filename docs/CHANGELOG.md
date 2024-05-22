@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/bsahitya/web-design-system/compare/v1.1.0...v1.1.1) (2024-05-22)
+
+
+### Bug Fixes
+
+* **release:** fixing the release scripts ([92198d8](https://github.com/bsahitya/web-design-system/commit/92198d80c0e8fd1f4467184ae7d55de8972d728f))
+
 # [1.1.0](https://github.com/bsahitya/web-design-system/compare/v1.0.3...v1.1.0) (2024-05-22)
 
 

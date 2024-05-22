@@ -12,9 +12,7 @@ export default defineConfig({
   cacheDir: '../../node_modules/.vite/libs/react-components',
 
   plugins: [
-    react({
-      jsxRuntime: 'classic',
-    }),
+    react(),
     nxViteTsPaths(),
     libInjectCss(),
     dts({
@@ -51,6 +49,7 @@ export default defineConfig({
             ignore: [
               path.resolve(__dirname, 'src/lib/**/*.stories.tsx'),
               path.resolve(__dirname, 'src/lib/**/*.d.ts'),
+              path.resolve(__dirname, 'src/lib/**/*.spec.{ts,tsx,js,jsx}'),
             ],
           })
           .map((file) => [
@@ -68,6 +67,11 @@ export default defineConfig({
       output: {
         assetFileNames: 'assets/[name][extname]',
         entryFileNames: '[name].js',
+        globals: {
+          react: 'react',
+          'react-dom': 'ReactDOM',
+          'react/jsx-runtime': 'react/jsx-runtime',
+        },
       },
     },
   },

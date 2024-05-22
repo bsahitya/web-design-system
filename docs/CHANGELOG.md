@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/bsahitya/web-design-system/compare/v1.1.3...v1.1.4) (2024-05-22)
+
+
+### Bug Fixes
+
+* **build:** remove react imports form components ([1008306](https://github.com/bsahitya/web-design-system/commit/1008306102ad72753cfc34830dc2607a84c9fe37))
+
 ## [1.1.3](https://github.com/bsahitya/web-design-system/compare/v1.1.2...v1.1.3) (2024-05-22)
 
 

@@ -12,7 +12,13 @@ export default defineConfig({
   cacheDir: '../../node_modules/.vite/libs/react-components',
 
   plugins: [
-    react(),
+    react({
+      babel: {
+        plugins: [
+          ['@babel/plugin-transform-react-jsx', { runtime: 'automatic' }],
+        ],
+      },
+    }),
     nxViteTsPaths(),
     libInjectCss(),
     dts({

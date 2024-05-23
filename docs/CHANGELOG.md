@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/bsahitya/web-design-system/compare/v1.1.5...v1.1.6) (2024-05-23)
+
+
+### Bug Fixes
+
+* **package:** update vite react plugin ([7b0474f](https://github.com/bsahitya/web-design-system/commit/7b0474f8f66ca8267467c60dbbe70044ee22cebe))
+
 ## [1.1.5](https://github.com/bsahitya/web-design-system/compare/v1.1.4...v1.1.5) (2024-05-22)
 
 

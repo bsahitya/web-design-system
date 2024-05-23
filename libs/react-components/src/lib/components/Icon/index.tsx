@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Icon: React.FC<React.HTMLProps<HTMLSpanElement>> = ({
   style,
   className,

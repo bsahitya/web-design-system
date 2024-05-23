@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import styles from './styles.module.scss';
 import externalLinkIcon from '../../assets/external-link.svg';
 import { NavListItem } from '../NavItem';
@@ -21,9 +21,7 @@ export const DropdownMenuItem: React.FC<DropdownMenuItemProps> = ({
   };
   return (
     <li
-      className={`${styles.dropdownMenuItem} ${
-        navItem.navItems ? styles.nested : ''
-      }`}
+      className={`${styles.dropdownMenuItem} ${navItem.navItems ? styles.nested : ''}`}
     >
       {navItem.navItems ? (
         <div

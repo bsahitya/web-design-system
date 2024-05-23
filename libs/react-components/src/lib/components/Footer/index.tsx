@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import styles from './styles.module.scss';
 import externalLinkIcon from '../../assets/external-link.svg';
 import IconLink from '../IconLink';

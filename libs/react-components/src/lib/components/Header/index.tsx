@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
 import NavItem, { NavListItem } from '../NavItem';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { DropdownMenu } from '../DropdownMenu';
 import logo from '../../assets/TD-logo.svg';
 import closeIcon from '../../assets/close-icon.svg';

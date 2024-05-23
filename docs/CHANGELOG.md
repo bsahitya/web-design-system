@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/bsahitya/web-design-system/compare/v1.1.6...v1.1.7) (2024-05-23)
+
+
+### Bug Fixes
+
+* **release:** add babel plugin for react runtime ([302e2da](https://github.com/bsahitya/web-design-system/commit/302e2da4aa980e7548c34a89aeca9de906901363))
+
 ## [1.1.6](https://github.com/bsahitya/web-design-system/compare/v1.1.5...v1.1.6) (2024-05-23)
 
 
